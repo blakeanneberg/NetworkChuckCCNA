@@ -27,10 +27,20 @@
 - Tab 
 
 ### Show
-## Show Run
+#### Show Run
 - `show run` shows all commands entered into the switch
 - `show running config` shows hostname and interface descriptions
 
-## `show IP interface brief` 
+#### `show IP interface brief` 
 - `show run` 
 - `show ip interface brief` shows all ports and if they are up or down
+
+## Example Switch/Router Base Config
+- `hostname`
+- `banner`
+- `enable password`
+- `line console`
+- `one vty`
+- `ip address`
+- `port descriptions`
+
