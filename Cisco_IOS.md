@@ -4,15 +4,20 @@
 - Press enter to get in to user mode 
 - `?` ex `? ping` help manual
 
-## Privileged Mode
+## Privileged Mode `enable`
 - `enable` goes into `#` privileged mode
 - `enable secret` to allow only authenticated staff, type `end` then `disable` to drop back to user EXEC, and `enable` to re-enter privileged EXEC and re-enter password
 
-
-### Global Configure Mode
+### Global Configure Mode `configure` 
 - `configure` to enter global configuration mode
 - `hostname` to change name of switch
 - `configure terminal` can edit module/port interface like speed
+- `banner motd` message of the day, like dont log in please.
+- `password` dont use, in plain text
+- `secret` use, is hash, example `secret PASSWORD`
+- `no` removes a configureation
+- `end` or ctl `z` gets out of Global Config mode and back to Privileged Mode
+
 
 #### Interface 
 - `interface fastEtherent`
@@ -37,9 +42,9 @@
 
 ## Example Switch/Router Base Config
 - `hostname`
-- `banner`
-- `enable password`
-- `line console`
+- `banner motd ?` 
+- `enable password` 
+- `line console` blocks user mode, on the console port/line, then set a `password` 
 - `one vty`
 - `ip address`
 - `port descriptions`
