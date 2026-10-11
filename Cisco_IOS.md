@@ -19,7 +19,8 @@
 - `end` or ctl `z` gets out of Global Config mode and back to Privileged Mode
 - `line vty` virtual terminal, remote into switch.
 - `copy running-config startup-config`
-
+- `reload` reboots the device but does not erase any config by itself.
+- `erase startup-config` factory resets then `write erase` or `delete flash:config.text` 
 
 #### Interface 
 - `interface fastEtherent`
