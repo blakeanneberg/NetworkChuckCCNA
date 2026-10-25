@@ -64,6 +64,7 @@
 - `show ip interface brief`: Displays a concise summary of all interfaces, assigned IP addresses, and Layer 1/Layer 2 operational statuses (`Status` / `Protocol`).
 - `show interfaces status`: Displays port duplex, speed, VLAN membership, and physical link state.
 - `show interfaces description`: Lists interface operational states alongside their configured descriptions.
+- `show mac address-table` where a switch learns which MAC address lives on which port
 
 ---
 
