@@ -14,3 +14,10 @@
 - FCS, or Frame Check Sequence or the CRC, or cyclical redundancy check: Same idea for both. It's a mathematical value used so the receiving device can verify the frame wasn't corrupted during transmission.
 - A frame is the Layer 2 wrapper around data, including source MAC, destination MAC, and FCS.
 
+# ARP
+- Address Resolution Protocol:  device takes an IP address and figures out the MAC address tied to it on the local network
+- ARP Request: Message broadcast asking anyone a address goes to which MAC address
+- Broadcasts get flooded, but known unicast traffic gets forwarded intelligently.
+
+# STP
+- Spanning Tree Protocol keeps redundant switch links from creating loops.
