@@ -67,6 +67,7 @@
 - `show mac address-table`: where a switch learns which MAC address lives on which port 
 - `clear mac address-table dynamic`: clears the arp table
 - `arp -a`: ARP bridges the gap between IP addresses and MAC addresses on the local network. 
+- `show cdp neighbors`: if you know the MAC is on a certain port and if you think another switch is connected there vai CDP or Cisco Discovery Protocol. how to tell what device is directly connected on a port
 ---
 
 ## Base Switch Configuration Template

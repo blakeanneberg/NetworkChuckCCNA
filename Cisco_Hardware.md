@@ -8,3 +8,4 @@
 - Erase `startup-config` from NVRAM: After erasing the startup-config, the running-config is still in RAM. Until you reload the device, the current configuration remains active. You can still save the running-config back to NVRAM with `copy running-config startup-config` before reloading to undo the erase.
 - CAM table: where switch stores MAC addresses its learned
 - If you see a bunch of MAC addresses learned on one interface, usually means port is connected to another switch
+-  
